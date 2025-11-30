@@ -306,7 +306,7 @@ const App = () => {
             <span>Projeto Proposta</span>
           </div>
           <p className="text-slate-500 text-sm mb-6 max-w-md mx-auto leading-relaxed">
-            Sistema desenvolvido internamente para garantir excelência operacional, segurança jurídica e alta produtividade no setor de licitações.
+            Projeto desenvolvido internamente para garantir excelência operacional, segurança e alta produtividade no setor de licitações.
           </p>
           <div className="pt-8 border-t border-slate-200 flex flex-col items-center gap-2">
             <p className="text-slate-400 text-xs">
