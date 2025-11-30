@@ -180,9 +180,9 @@ const App = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Veja o Sistema em Ação</h2>
+            <h2 className="text-3xl font-bold mb-4">Exemplo do sistema</h2>
             <p className="text-slate-400 max-w-2xl mx-auto">
-              Visão completa conforme a planilha oficial, incluindo destaques de convênios e valores com/sem ICMS.
+              Visão breve conforme a planilha oficial, incluindo destaques de convênios e valores com/sem ICMS.
             </p>
           </div>
 
