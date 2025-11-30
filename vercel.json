@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd landin && npm run build",
+  "installCommand": "cd landin && npm install",
+  "outputDirectory": "landin/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
