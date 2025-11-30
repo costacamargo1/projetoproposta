@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Zap, FileSpreadsheet, AlertTriangle, CheckCircle2, ArrowRight, Lock } from 'lucide-react';
+import { ShieldCheck, Zap, FileSpreadsheet, AlertTriangle, CheckCircle2, Lock } from 'lucide-react';
 
 // Componente para simular a interface do sistema
 const SystemMockup = () => (
@@ -118,13 +118,9 @@ const App = () => {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2 font-bold text-xl text-blue-700 cursor-pointer hover:opacity-80 transition">
             <FileSpreadsheet className="h-6 w-6" />
-            <span>LicitaPro<span className="text-slate-500 font-normal">Automator</span></span>
+            <span>Projeto <span className="text-slate-500 font-normal">Proposta</span></span>
           </div>
-          <nav className="hidden md:flex gap-6 text-sm font-medium text-slate-600">
-            <a href="#funcionalidades" className="hover:text-blue-600 transition">Funcionalidades</a>
-            <a href="#beneficios" className="hover:text-blue-600 transition">Benefícios</a>
-            <a href="#demo" className="hover:text-blue-600 transition">Demonstração</a>
-          </nav>
+          <nav className="hidden md:flex gap-6 text-sm font-medium text-slate-600"></nav>
           <div className="md:hidden">
              {/* Mobile menu placeholder */}
              <button className="p-2 text-slate-600"><div><div className="w-5 h-0.5 bg-current"></div><div className="w-5 h-0.5 bg-current"></div><div className="w-5 h-0.5 bg-current"></div></div></button>
@@ -149,15 +145,6 @@ const App = () => {
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Um sistema inteligente em Excel/VBA que identifica automaticamente convênios <strong>162, 87, 140 e Lista CAP</strong>. Elimine o risco regulatório e garanta a segurança jurídica em segundos.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <button className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-blue-200 hover:-translate-y-0.5 active:translate-y-0">
-                  Ver Demonstração Interna
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </button>
-                <button className="inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-6 py-3 text-base font-semibold text-slate-700 transition-all hover:border-slate-300 hover:bg-slate-50">
-                  Entender a Metodologia
-                </button>
-              </div>
             </div>
 
             {/* Visual Abstract / Stats */}
@@ -282,9 +269,6 @@ const App = () => {
                 <span className="text-xs uppercase tracking-wider">A Solução Automatizada</span>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4 relative z-10">Padronização e Agilidade</h3>
-              <p className="text-slate-600 mb-8 relative z-10">
-                Nosso algoritmo varre as regras e valida os dados cruzados antes mesmo de você finalizar a proposta.
-              </p>
 
               <div className="grid gap-4 relative z-10">
                 <div className="bg-white p-4 rounded-xl shadow-sm border border-blue-100 flex items-start gap-4 hover:shadow-md transition-shadow">
@@ -319,7 +303,7 @@ const App = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 font-bold text-xl text-slate-400 mb-4">
             <FileSpreadsheet className="h-6 w-6" />
-            <span>LicitaPro</span>
+            <span>Projeto Proposta</span>
           </div>
           <p className="text-slate-500 text-sm mb-6 max-w-md mx-auto leading-relaxed">
             Sistema desenvolvido internamente para garantir excelência operacional, segurança jurídica e alta produtividade no setor de licitações.
@@ -339,4 +323,4 @@ const App = () => {
   );
 };
 
-export default LandingPage;
+export default App;
